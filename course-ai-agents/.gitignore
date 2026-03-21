@@ -1,10 +1,22 @@
-# Secretos y configuración personal
-.env
-
 # Archivos temporales de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Carpetas de entornos virtuales (por si acaso)
+# Entornos virtuales (todas las variantes posibles)
+.venv/
 venv/
 env/
+bin/
+include/
+lib/
+share/
+
+# Variables de entorno y secretos
+.env
+
+# Archivos pesados de librerías nativas
+*.so
+*.dll
+*.dylib
