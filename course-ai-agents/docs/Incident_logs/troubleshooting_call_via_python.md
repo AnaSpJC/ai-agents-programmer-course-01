@@ -2,6 +2,10 @@
 
 Este documento detalla los errores encontrados durante el desarrollo del proyecto, sus causas técnicas y las soluciones aplicadas para asegurar la estabilidad del entorno.
 
+**ID del Incidente:** 001  
+**Fecha:** 22 de marzo de 2026  
+**Autor:** AnaSpJC  
+**Estado:** Resuelto
 ---
 
 ## 1. Error de Librería Depreciada
