@@ -1,0 +1,18 @@
+PRODUCTO: Laptop Gamer Pro
+PRECIO: 1500
+STOCK: 5 unidades
+DESCRIPCIÓN: Procesador i9, 32GB RAM, RTX 4080.
+
+PRODUCTO: Mouse Ergonómico
+PRECIO: 50
+STOCK: 20 unidades
+DESCRIPCIÓN: Conexión inalámbrica, 16000 DPI.
+
+PRODUCTO: Monitor 4K 27"
+PRECIO: 400
+STOCK: 10 unidades
+DESCRIPCIÓN: Panel IPS, 144Hz, HDR10.
+
+POLÍTICA DE ENVÍO: 
+- Envío Nacional (Argentina): 10 USD fijo.
+- Envío Internacional: Se calcula según el peso (consultar herramienta).
