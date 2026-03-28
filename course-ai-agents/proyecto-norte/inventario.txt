@@ -5,7 +5,7 @@ DESCRIPCIÓN: Procesador i9, 32GB RAM, RTX 4080.
 
 PRODUCTO: Mouse Ergonómico
 PRECIO: 50
-STOCK: 20 unidades
+STOCK: 19 unidades
 DESCRIPCIÓN: Conexión inalámbrica, 16000 DPI.
 
 PRODUCTO: Monitor 4K 27"
