@@ -20,3 +20,26 @@ share/
 *.so
 *.dll
 *.dylib
+
+# --- SECCIÓN DE DATOS Y PERSISTENCIA ---
+# Bases de datos SQLite (para que no se suban tus .db)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de bitácora o logs de la base de datos
+*.db-journal
+*.db-wal
+
+# Almacenamiento de Vectores (ChromaDB, Faiss, etc.)
+# Evita subir carpetas donde los agentes guardan sus "recuerdos"
+storage/
+vector_db/
+index/
+
+# Documentos de contexto (Si usas una carpeta para PDFs/TXTs masivos)
+data/
+inputs/
+
+# Otros archivos de sistema
+.DS_Store
