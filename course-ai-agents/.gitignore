@@ -43,3 +43,8 @@ inputs/
 
 # Otros archivos de sistema
 .DS_Store
+
+# ChromaDB local data
+chroma_db/
+*.parquet
+*.sqlite3-journal

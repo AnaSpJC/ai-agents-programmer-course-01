@@ -1,11 +1,11 @@
 import os
 from dotenv import load_dotenv
 
+# USAMOS TUS IMPORTACIONES PROBADAS (langchain_classic)
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage, AIMessage 
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-# Usamos tus importaciones probadas:
 from langchain_classic.agents import AgentExecutor, create_tool_calling_agent
 
 # Importamos tus funciones de la base de datos
@@ -35,7 +35,7 @@ prompt = ChatPromptTemplate.from_messages([
     ("system", "Eres el asistente experto de Tech-Nova. Tu base de datos es SQL y debes usar tus tools para dar información precisa."),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{input}"),
-    MessagesPlaceholder(variable_name="agent_scratchpad"), 
+    ("placeholder", "{agent_scratchpad}"), # Mantenemos tu sintaxis de placeholder
 ])
 
 # Construcción con tus librerías 'classic'
