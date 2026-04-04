@@ -48,3 +48,15 @@ inputs/
 chroma_db/
 *.parquet
 *.sqlite3-journal
+
+# --- AJUSTES FINALES PERSISTENCIA ---
+# Archivos temporales de SQLite (evita errores de 'database is locked' en Git)
+*.db-shm
+*.db-wal
+
+# Carpetas de persistencia de LlamaIndex (por si usas el storage por defecto)
+./storage/
+
+# Logs de depuración de VS Code / Codespaces
+.vscode/
+.history/

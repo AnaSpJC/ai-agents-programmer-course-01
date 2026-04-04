@@ -1,3 +1,16 @@
+In my personal war with LlamaIndex aand differen conections I've been installing different things
+These are the last:
+python-dotenv
+google-genai
+llama-index-core
+llama-index-llms-google-genai
+llama-index-embeddings-langchain
+langchain-google-genai
+SQLAlchemy
+aiosqlite
+chromadb
+EOF
+
 aiohappyeyeballs==2.6.1
 aiohttp==3.13.3
 aiosignal==1.4.0
